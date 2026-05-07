@@ -1,10 +1,11 @@
 # DR.Q: Debiased Model-based Representations for Sample-efficient Continuous Control
 
+
+Official pytorch implementation of **DR.Q** by Jiafei Lyu, Zichuan Lin, Scott Fujimoto, Kai Yang, Yangkun Chen, Saiyong Yang, Zongqing Lu, and Deheng Ye. The code is built upon the [MR.Q codebase](https://github.com/facebookresearch/MRQ). Check our paper for further details if you are interested. We also open-source all model weights at HuggingFace.
+
+
 [![Paper](https://img.shields.io/badge/Paper-ICML2026-purple)](https://openreview.net/forum?id=ZP1p8k106p)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-DR.Q-FFD21E)](https://huggingface.co/)
-
-Official pytorch implementation of **DR.Q** by Jiafei Lyu, Zichuan Lin, Scott Fujimoto, Kai Yang, Yangkun Chen, Saiyong Yang, Zongqing Lu, and Deheng Ye. The code is built upon the [MR.Q codebase](https://github.com/facebookresearch/MRQ).
-
 
 ## 🔍 Overview
 
