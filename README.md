@@ -1,6 +1,6 @@
 # Debiased Model-Based Representations for Q-learning (DR.Q)
 
-[![Paper](https://img.shields.io/badge/ICML-2026-purple)](https://openreview.net/forum?id=ZP1p8k106p)
+[![Paper](https://img.shields.io/badge/Paper-ICML2026-purple)](https://openreview.net/forum?id=ZP1p8k106p)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-DR.Q-FFD21E)](https://huggingface.co/)
 
 Official pytorch implementation of **DR.Q** by Jiafei Lyu, Zichuan Lin, Scott Fujimoto, Kai Yang, Yangkun Chen, Saiyong Yang, Zongqing Lu, and Deheng Ye. The code is built upon the [MR.Q codebase](https://github.com/facebookresearch/MRQ).
@@ -23,19 +23,19 @@ The framework of DR.Q is shown below:
 ## Repository Structure
 
 ```
-.
-├── main.py                 # Experiment entry point and training loop
+
 ├── DRQ/
-│   ├── DRQ.py              # Agent, encoder training, RL training, TwoHot reward
-│   ├── models.py           # Neural network architectures (Encoder, Policy, Value)
-│   ├── buffer.py           # Faded Prioritized Experience Replay buffer
-│   ├── env_preprocessing.py# Unified wrappers for all benchmark suites
-│   └── utils.py            # Logging and dataclass utilities
+|   ├── main.py                 # Experiment entry point and training loop
+│   ├── DRQ.py                  # Agent, encoder training, RL training, TwoHot reward
+│   ├── models.py               # Neural network architectures (Encoder, Policy, Value)
+│   ├── buffer.py               # Faded Prioritized Experience Replay buffer
+│   ├── env_preprocessing.py    # Unified wrappers for all benchmark suites
+│   └── utils.py                # Logging and dataclass utilities
 ├── results/
-│   ├── drq.csv             # DR.Q results
-│   ├── mrq.csv             # MR.Q baseline results
-│   ├── fog.csv             # FOG baseline results
-│   └── simbaV2_utd2.csv    # SimbaV2 baseline results
+│   ├── drq.csv                 # DR.Q results
+│   ├── mrq.csv                 # MR.Q baseline results
+│   ├── fog.csv                 # FOG baseline results
+│   └── simbaV2_utd2.csv        # SimbaV2 baseline results
 ├── assets/
 │   ├── framework.png
 │   ├── benchmark_performance.png
