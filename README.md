@@ -6,23 +6,28 @@
 Official pytorch implementation of **DR.Q** by Jiafei Lyu, Zichuan Lin, Scott Fujimoto, Kai Yang, Yangkun Chen, Saiyong Yang, Zongqing Lu, and Deheng Ye. The code is built upon the [MR.Q codebase](https://github.com/facebookresearch/MRQ).
 
 
-## Overview
+## 🔍 Overview
 
 The framework of DR.Q is shown below:
 
 ![DR.Q Framework](assets/framework.png)
 
-## Benchmark Performance
+## 📊 Benchmark Performance
 
-<img src="assets/benchmark_performance.png" width="400" alt="Benchmark Performance"/>
+DR.Q exhibits strong performance across numerous continuous control benchmarks, as shown in the following figure
+
+<p align="center">
+<img src="assets/benchmark_performance.png" width="500" alt="Benchmark Performance"/>
+</p>
+
+The sample efficiency of DR.Q often surpass baseline methods by a large margin. The learning curves of DR.Q on selected tasks can be found below
 
 ![Sample Efficiency](assets/sample_efficiency.png)
 
 
-## Repository Structure
+## 🗂️ Repository Structure
 
 ```
-
 ├── DRQ/
 |   ├── main.py                 # Experiment entry point and training loop
 │   ├── DRQ.py                  # Agent, encoder training, RL training, TwoHot reward
@@ -42,7 +47,7 @@ The framework of DR.Q is shown below:
 └── requirements.txt
 ```
 
-## Installation
+## 🚀 Installation
 
 Python 3.11 was used for all reported experiments; Python 3.9–3.12 is also supported.
 
@@ -52,7 +57,7 @@ pip install -r requirements.txt
 
 **HumanoidBench (optional):** To run DR.Q on HumanoidBench tasks, install HumanoidBench separately by following the instructions in the [HumanoidBench repository](https://github.com/carlosferrazza/humanoid-bench).
 
-## Usage
+## 🎮 Usage
 
 The benchmark suite is selected via a prefix in the environment name, followed by the original task identifier.
 
@@ -75,7 +80,7 @@ python main.py --env Dmc-visual-walker-walk
 python main.py --env HBench-h1-run-v0
 ```
 
-## Citation
+## 📝 Citation
 
 If you use this code, please cite our paper:
 ```
@@ -88,6 +93,6 @@ url={https://openreview.net/forum?id=ZP1p8k106p}
 }
 ```
 
-## License
+## 📄 License
 
 DR.Q is licensed under the MIT license.
