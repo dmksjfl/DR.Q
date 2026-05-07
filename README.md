@@ -1,4 +1,4 @@
-# Debiased Model-Based Representations for Q-learning (DR.Q)
+# DR.Q: Debiased Model-based Representations for Sample-efficient Continuous Control
 
 [![Paper](https://img.shields.io/badge/Paper-ICML2026-purple)](https://openreview.net/forum?id=ZP1p8k106p)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-DR.Q-FFD21E)](https://huggingface.co/)
@@ -14,11 +14,10 @@ The framework of DR.Q is shown below:
 
 ## Benchmark Performance
 
-<img src="assets/benchmark_performance.png" width="800" alt="Benchmark Performance"/>
+<img src="assets/benchmark_performance.png" width="400" alt="Benchmark Performance"/>
 
 ![Sample Efficiency](assets/sample_efficiency.png)
 
----
 
 ## Repository Structure
 
@@ -89,3 +88,6 @@ url={https://openreview.net/forum?id=ZP1p8k106p}
 }
 ```
 
+## License
+
+DR.Q is licensed under the MIT license.
