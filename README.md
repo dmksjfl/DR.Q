@@ -86,7 +86,7 @@ If you use this code, please cite our paper:
 ```
 @inproceedings{lyu2026debiased,
 title={Debiased Model-based Representations for Sample-efficient Continuous Control},
-author={Jiafei Lyu, Zichuan Lin, Scott Fujimoto, Kai Yang, Yangkun Chen, Saiyong Yang, Zongqing Lu, Deheng Ye},
+author={Jiafei Lyu and Zichuan Lin and Scott Fujimoto and Kai Yang and Yangkun Chen and Saiyong Yang and Zongqing Lu and Deheng Ye},
 booktitle={Forty-third International Conference on Machine Learning},
 year={2026},
 url={https://openreview.net/forum?id=ZP1p8k106p}
