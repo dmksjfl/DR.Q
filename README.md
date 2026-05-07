@@ -1,9 +1,10 @@
 # Debiased Model-Based Representations for Q-learning (DR.Q)
 
+[![Paper](https://img.shields.io/badge/ICML-2026-purple)](https://openreview.net/forum?id=ZP1p8k106p)
+[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-DR.Q-FFD21E)](https://huggingface.co/)
 
-Official implementation of **DR.Q** by Jiafei Lyu, Zichuan Lin, Scott Fujimoto, Kai Yang, Yangkun Chen, Saiyong Yang, Zongqing Lu, and Deheng Ye. The code is built upon the [MR.Q codebase](https://github.com/facebookresearch/MRQ).
+Official pytorch implementation of **DR.Q** by Jiafei Lyu, Zichuan Lin, Scott Fujimoto, Kai Yang, Yangkun Chen, Saiyong Yang, Zongqing Lu, and Deheng Ye. The code is built upon the [MR.Q codebase](https://github.com/facebookresearch/MRQ).
 
----
 
 ## Overview
 
@@ -13,7 +14,7 @@ The framework of DR.Q is shown below:
 
 ## Benchmark Performance
 
-![Benchmark Performance](assets/benchmark_performance.png)
+<img src="assets/benchmark_performance.png" width="800" alt="Benchmark Performance"/>
 
 ![Sample Efficiency](assets/sample_efficiency.png)
 
@@ -42,8 +43,6 @@ The framework of DR.Q is shown below:
 └── requirements.txt
 ```
 
----
-
 ## Installation
 
 Python 3.11 was used for all reported experiments; Python 3.9–3.12 is also supported.
@@ -53,8 +52,6 @@ pip install -r requirements.txt
 ```
 
 **HumanoidBench (optional):** To run DR.Q on HumanoidBench tasks, install HumanoidBench separately by following the instructions in the [HumanoidBench repository](https://github.com/carlosferrazza/humanoid-bench).
-
----
 
 ## Usage
 
