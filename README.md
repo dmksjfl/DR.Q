@@ -5,7 +5,8 @@ Official pytorch implementation of **DR.Q** by Jiafei Lyu, Zichuan Lin, Scott Fu
 
 
 [![Paper](https://img.shields.io/badge/Paper-ICML2026-purple)](https://openreview.net/forum?id=ZP1p8k106p)
-[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-DR.Q-FFD21E)](https://huggingface.co/)
+[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-DR.Q-FFD21E)](https://huggingface.co/dmux/DR.Q)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/dmksjfl/DR.Q/blob/master/LICENSE)
 
 ## 🔍 Overview
 
